@@ -8,6 +8,7 @@ import Bank from './bank.png'
 import Gpt from './gpt.png'
 import Linked from './linked.png'
 import Todo from './todo.png'
+import Form from './stepform.png'
 
 function App() {
   const projects = [
@@ -53,16 +54,16 @@ function App() {
       link: "https://github.com/Royaltechsis/easy-banking-landing-page",
       image: Bank, // Placeholder for project image
     },
-    {
-      name: "Stellanova",
-      description: "An innovative project for Stellanova.",
-      link: "https://github.com/Royaltechsis/stellanova",
-      image: "https://via.placeholder.com/300", // Placeholder for project image
-    },
+    
     {
       name: "Multi-Step Form",
       description: "A dynamic multi-step form implementation.",
       link: "https://github.com/Royaltechsis/multi-step-form",
+      image: Form, // Placeholder for project image
+    },{
+      name: "Stellanova",
+      description: "An innovative project for Stellanova.",
+      link: "https://github.com/Royaltechsis/stellanova",
       image: "https://via.placeholder.com/300", // Placeholder for project image
     },
   ];
