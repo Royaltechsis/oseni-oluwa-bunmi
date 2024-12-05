@@ -11,6 +11,7 @@ import Linked from './linked.png'
 import Todo from './todo.png'
 import Form from './stepform.png'
 import Sola from './sola.png'
+import { preview } from 'vite';
 
 function App() {
   const projects = [
@@ -19,7 +20,7 @@ function App() {
       description: "An e-commerce platform for gadgets. (sign up first to use)",
       link: "https://github.com/Royaltechsis/Nuel-Store",
       image: Store, // Placeholder for project image
-      preview: "",
+      preview: "https://nuel-store-git-main-osenibunmi2023gmailcoms-projects.vercel.app/login",
       techStack: ["React", "Redux Toolkit", "Firebase", "Tailwind CSS", "JavaScript"], // Add tech stack here
     },
     {
@@ -28,11 +29,12 @@ function App() {
       link: "https://github.com/Royaltechsis/easy-banking-landing-page",
       image: Bank, // Placeholder for project image
       techStack: ["React", "Tailwind Css", "JavaScript"],
+      preview: 'https://easy-banking-landing-page-kappa.vercel.app/',
     },
     {
       name: "Oluwasola Ajao and Company (Chartered Accountants)",
       description: "A website for Oluwasola Ajaa and co",
-      link: "https://oluwasolaajaoco.com/",
+      preview: "https://oluwasolaajaoco.com/",
       image: Sola, // Placeholder for project image
       techStack: ["WordPress"],
     },
@@ -42,6 +44,7 @@ function App() {
       link: "https://github.com/Royaltechsis/my-tube",
       image: Tube, // Placeholder for project image
       techStack: ["React", "Tailwind CSS", "YouTube API", "JavaScript"],
+      preview: "my-tube-inky.vercel.app",
     },
     {
       name: "Meme Generator",
@@ -49,6 +52,7 @@ function App() {
       link: "https://github.com/Royaltechsis/meme-generator",
       image: Meme, // Placeholder for project image
       techStack: ["React", "CSS", "JavaScript"],
+      preview: "meme-generator-lovat-seven.vercel.app",
     },
     {
       name: "Oseni's LinkedIn Clone",
@@ -56,6 +60,7 @@ function App() {
       link: "https://github.com/Royaltechsis/Oseni-s-LinkedIn-Clone",
       image: Linked, // Placeholder for project image
       techStack: ["React", "Firebase", "Tailwind CSS", "JavaScript"],
+      preview: "osenis-linked-in-clone.vercel.app",
     },
     {
       name: "To-do-list",
@@ -63,6 +68,7 @@ function App() {
       link: "https://github.com/Royaltechsis/to-do-list-project",
       image: Todo, // Placeholder for project image
       techStack: ["React", "JavaScript"],
+      preview: "to-do-list-project-lyart.vercel.app",
     },
     {
       name: "Multi-Step Form",
@@ -70,6 +76,7 @@ function App() {
       link: "https://github.com/Royaltechsis/multi-step-form",
       image: Form, // Placeholder for project image
       techStack: ["React", "Tailwind CSS", "TypeScript"],
+      preview: "multi-step-form-bay-theta.vercel.app",
     },
     {
       name: "Stellanova",
