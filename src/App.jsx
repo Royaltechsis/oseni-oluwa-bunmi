@@ -25,7 +25,7 @@ function App() {
     },
     {
       name: "Easy Banking Landing Page",
-      description: "Landing page for an easy banking service.",
+      description: "Landing page for an easy banking service. (Static landign  page design ",
       link: "https://github.com/Royaltechsis/easy-banking-landing-page",
       image: Bank, // Placeholder for project image
       techStack: ["React", "Tailwind Css", "JavaScript"],
