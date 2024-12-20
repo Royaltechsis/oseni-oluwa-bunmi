@@ -10,7 +10,6 @@ import Linked from './linked.png'
 import Todo from './todo.png'
 import Form from './stepform.png'
 import Sola from './sola.png'
-import { preview } from 'vite';
 
 function App() {
   const projects = [
