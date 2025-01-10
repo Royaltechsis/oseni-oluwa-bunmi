@@ -10,18 +10,7 @@ function App() {
     <Router>
       <div className="min-h-screen bg-gray-900 text-gray-200">
         {/* Navbar */}
-        <nav className="bg-gray-800 p-4">
-          <ul className="flex justify-center space-x-6">
-
-            <li>
-              <Link to="/" className="text-gray-200 hover:text-blue-400">Resume</Link>
-            </li>
-            <li>
-              <Link to="/portfolio" className="text-gray-200 hover:text-blue-400">Portfolio</Link>
-            </li>
-            
-          </ul>
-        </nav>
+      
 
         {/* Routes */}
         <Routes>

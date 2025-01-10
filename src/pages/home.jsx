@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'; 
+import { Link } from 'react-router-dom';
 import Image from '/images/image.png'
 import Store from '/images/store.png'
 import Meme from '/images/meme.png'
@@ -117,8 +118,17 @@ function Home() {
           />
         </div>
         <div className="md:w-1/2 text-center md:text-left">
-          <h1 className="text-5xl font-extrabold mb-2">Oseni Oluwabunmi</h1>
-          <p className="text-xl font-light">Software Developer</p>
+          <div className='sm:flex-row flex-col flex items-center justify-between gap-3 '>
+            <div><h1 className="text-5xl font-extrabold mb-2">Oseni Oluwabunmi</h1>
+            <p className="text-xl font-light">Software Developer</p></div>
+            <Link to="/" className="inline-block px-8 py-4 text-lg font-semibold text-gray-300 border-2 border-blue-300 rounded-lg transform transition-all duration-300 ease-in-out hover:scale-105 hover:bg-gradient-to-l  from-blue-500 to-purple-500">
+            <a
+              
+            >
+              View Resume
+            </a>
+            </Link>
+          </div>
           <div className="mt-4">
             <h2 className="text-lg font-semibold">Skills:</h2>
             <div className="mt-2">

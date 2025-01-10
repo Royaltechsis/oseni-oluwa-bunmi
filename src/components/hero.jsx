@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 function Hero() {
   return (
@@ -33,10 +35,10 @@ function Hero() {
 
         {/* About Me Content */}
         <div className="max-w-2xl text-center lg:text-left space-y-6">
-          <h2 className="text-5xl md:text-6xl font-extrabold text-blue-300 tracking-wide">
+          <h2 className="text-4xl md:text-6xl font-extrabold text-blue-300 tracking-wide">
             About Me
           </h2>
-          <p className="text-lg md:text-xl leading-relaxed text-gray-300">
+          <p className="text-base  md:text-xl leading-relaxed text-gray-300 w-full">
             I’m a passionate developer with over 3 years of experience crafting
             scalable websites and mobile applications. My expertise lies in
             modern web technologies like JavaScript, React, Next.js, and React Native. 
@@ -52,12 +54,13 @@ function Hero() {
             >
               Hire Me
             </a>
+            <Link to="/portfolio" className="inline-block px-8 py-4 text-lg font-semibold text-gray-300 border-2 border-blue-300 rounded-lg transform transition-all duration-300 ease-in-out hover:scale-105 hover:bg-gradient-to-l  from-blue-500 to-purple-500">
             <a
-              href="/portfolio"
-              className="inline-block px-8 py-4 text-lg font-semibold text-gray-300 border-2 border-blue-300 rounded-lg transform transition-all duration-300 ease-in-out hover:scale-105 hover:bg-gradient-to-l  from-blue-500 to-purple-500"
+              
             >
               View Portfolio
             </a>
+            </Link>
           </div>
         </div>
       </div>

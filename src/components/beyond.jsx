@@ -42,7 +42,7 @@ const BeyondSwiper = () => {
   const [expandedCard, setExpandedCard] = useState(null);
 
 return (
-    <div className="p-4 bg-gray-900 text-white  items-center sm:my-20 space-y-8 w-full">
+    <div className="py-4 bg-gray-900 text-white  items-center sm:my-20 my-10 space-y-8 w-full">
         {/* Catchy Heading */}
         <h2 className="sm:text-4xl text-2xl font-bold text-center my-4 sm:my-10 text-blue-300">
             Explore My Journey Beyond Web Development
