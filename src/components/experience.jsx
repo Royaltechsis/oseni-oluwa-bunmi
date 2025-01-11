@@ -10,9 +10,8 @@ function Experience() {
           "Integrated payment gateways, inventory management systems, and third-party APIs to ensure seamless functionality.",
           "Collaborated with clients to create customized solutions for enhanced user experience and performance optimization.",
           "Provided ongoing support and maintenance, including updates to UI/UX and troubleshooting technical issues.",
-          "Developed strategies to boost brand visibility and engagement through innovative website features and digital marketing integration.",
           "Developed a functional admin dashboard for managing products, orders, and customer data.",
-          "Oversaw website updates to align with promotional strategies and brand goals.",
+          "Overseeing website updates to align with promotional strategies and brand goals.",
         ],
       },
       {

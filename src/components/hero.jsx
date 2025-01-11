@@ -39,7 +39,7 @@ function Hero() {
             About Me
           </h2>
           <p className="text-base  md:text-xl leading-relaxed text-gray-300 w-full">
-            I’m a passionate developer with over 3 years of experience crafting
+            I’m a passionate developer with over 3 years experience of crafting
             scalable websites and mobile applications. My expertise lies in
             modern web technologies like JavaScript, React, Next.js, and React Native. 
             I thrive on creating innovative solutions to complex problems and building

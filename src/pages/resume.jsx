@@ -34,7 +34,7 @@ function Resume() {
       <div className="w-full  px-6 flex flex-col items-center justify-center">
         {/* Header */}
         <header className="text-center mt-8 ">
-          <h1 className="text-5xl font-bold text-blue-400">Oseni Oluwabunmi</h1>
+          <h1 className="text-5xl font-bold text-blue-400">Oluwabunmi Oseni</h1>
           <p className="text-xl mt-2">Software Developer</p>
         </header>
   
