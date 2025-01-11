@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes  } from "react-router-dom";
 import Home from "./pages/home"; // Your existing Home component
 import Resume from "./pages/resume"; // Import the Resume component
 import './index.css'; // Ensure this includes Tailwind CSS imports
