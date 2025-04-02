@@ -40,8 +40,7 @@ function Hero() {
           </h2>
           <p className="text-base  md:text-xl leading-relaxed text-gray-300 w-full">
             I’m a passionate developer with over 3 years experience of crafting
-            scalable websites and mobile applications. My expertise lies in
-            modern web technologies like JavaScript, React, Next.js, and React Native. 
+            scalable websites and mobile applications. I am adepth with modern web technologies like JavaScript, React, Typescript, Next.js, and React Native. 
             I thrive on creating innovative solutions to complex problems and building
             user-friendly digital experiences.
           </p>
