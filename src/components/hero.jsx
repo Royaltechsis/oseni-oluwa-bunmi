@@ -12,12 +12,12 @@ function Hero() {
         <div className="relative flex-shrink-0 lg:mr-16 mb-8 lg:mb-0 group z-50">
   <div className="relative w-64 h-64 md:w-72 md:h-72 lg:w-96 lg:h-96">
     {/* Outer Frame to add depth */}
-    <div className="absolute inset-0 -z-10 w-full h-full bg-gradient-to-br  from-blue-500 to-purple-700 rounded-lg shadow-2xl transform rotate -scale-75 group-hover:rotate-45 transition-all duration-300 ease-in-out" />
+    <div className="absolute inset-0 -z-10 w-full h-full bg-gradient-to-br  from-blue-500 to-purple-700 rounded-lg shadow-2xl transform rotate -scale-75  transition-all duration-300 ease-in-out" />
      {/* <div className="absolute inset-0 -z-10 w-full h-full bg-gradient-to-br from-blue-500 to-purple-00 rounded-lg shadow-2xl transform -rotate-12 group-hover:rotate-12 transition-all duration-300 ease-in-out" /> */}
-    <div className="absolute inset-0 -z-10 w-full h-full  rounded-lg shadow-2xl transform  group-hover:rotate-12 transition-all duration-300 ease-in-out border-4 border-gradient-to-br from-blue-400 to-purple-600 -rotate-45 p-2 " />
+    <div className="absolute inset-0 -z-10 w-full h-full  rounded-lg shadow-2xl transform   transition-all duration-300 ease-in-out border-4 border-gradient-to-br from-blue-400 to-purple-600 -rotate-45 p-2 " />
 
     {/* Inner Frame with Profile Image */}
-    <div className="w-64 h-64 md:w-72 md:h-72 lg:w-96 lg:h-96 border-4 border-gradient-to-br from-blue-400 to-purple-600 rounded-lg p-2 transform  group-hover:-rotate-12 transition duration-300 ease-in-out">
+    <div className="w-64 h-64 md:w-72 md:h-72 lg:w-96 lg:h-96 border-4 border-gradient-to-br from-blue-400 to-purple-600 rounded-lg p-2 transform  transition duration-300 ease-in-out">
       <img
         src="/images/image3.png"
         alt="Profile Picture"

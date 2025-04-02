@@ -1,6 +1,39 @@
 function Experience() {
     const experiences = [
       {
+        title: "Full Stack Developer",
+        company: "Maitech Studio",
+        location: "Remote",
+        date: "2025- Present",
+        responsibilities: [
+          "Designed the layout and user interface of the web application using Wordpress and Elementor.",
+          "Developed the website and modified plugins using PHP",
+          "Implemented responsive design principles to ensure the application is mobile-friendly and accessible across various devices.",
+          "Collaborated with the design team to create visually appealing and user-friendly interfaces.",
+          "Integrated third-party APIs and services to enhance application functionality.",
+          "Conducted thorough testing and debugging to ensure high-quality code and a seamless user experience.",
+          "Worked effecrively with the project manager to meet client specif needs and deadlines.",
+          "Built custom features using PHP"
+        ]
+      },
+      {
+        title: "Front End Developer",
+        company: "Grearn Africa",
+        location: "Remote",
+        date: "2024 - Present",
+        responsibilities: [
+          "Collaborated with a cross-functional team to develop user-friendly and responsive mobile applications.",
+          "Built reusable UI components and ensured seamless integration with backend APIs.",
+          "Implemented clean, maintainable, and scalable code using modern front-end frameworks and libraries.",
+          "Optimized app performance to ensure smooth functionality on both iOS and Android platforms.",
+          "Designed intuitive and visually appealing interfaces, aligning with the company’s branding and user requirements.",
+          "Conducted thorough testing and debugging to ensure high-quality code and a seamless user experience.",
+          "Utilized version control systems like Git for efficient team collaboration and code management.",
+          "Provided post-launch support and resolved issues reported by users to enhance app reliability.",
+          "Collaborated with the UX/UI design team to translate wireframes and prototypes into functional applications.",
+        ],
+      },
+      {
         title: "Freelance Ecommerce Developer",
         company: null,
         location: "Remote",
@@ -30,24 +63,7 @@ function Experience() {
           "Optimized page speed and performance for a seamless user experience.",
         ],
       },
-      {
-        title: "Front End Developer",
-        company: "Grearn Africa",
-        location: "Remote",
-        date: "2024 - Present",
-        responsibilities: [
-          "Collaborated with a cross-functional team to develop user-friendly and responsive mobile applications.",
-          "Built reusable UI components and ensured seamless integration with backend APIs.",
-          "Implemented clean, maintainable, and scalable code using modern front-end frameworks and libraries.",
-          "Optimized app performance to ensure smooth functionality on both iOS and Android platforms.",
-          "Designed intuitive and visually appealing interfaces, aligning with the company’s branding and user requirements.",
-          "Conducted thorough testing and debugging to ensure high-quality code and a seamless user experience.",
-          "Utilized version control systems like Git for efficient team collaboration and code management.",
-          "Participated in agile workflows, including sprint planning and daily standups, to ensure timely delivery of features.",
-          "Provided post-launch support and resolved issues reported by users to enhance app reliability.",
-          "Collaborated with the UX/UI design team to translate wireframes and prototypes into functional applications.",
-        ],
-      },
+      
     ];
   
     return (
@@ -59,7 +75,7 @@ function Experience() {
          
   
           {/* Timeline Slides */}
-          <div className="w-full snap-y snap-mandatory overflow-y-scroll h-screen">
+          <div className="w-full snap-y snap-mandatory overflow-y-scroll sm:h-screen">
             {experiences.map((exp, index) => (
               <div
                 key={index}

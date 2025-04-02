@@ -20,7 +20,7 @@ const beyond = [
   },
   {
     title: "Achievements in Debate & Robotics",
-    image: "/public/images/robotics.jpg",
+    image: "/images/robotics.jpg",
     items: [
       'Winner of the *"I Beg to Differ"* debate competition in 2022, showcasing exceptional critical thinking and public speaking skills.',
       "Team leader in the *Great Debate* competition, where my team emerged as champions.",
@@ -29,7 +29,7 @@ const beyond = [
   },
   {
     title: "Volunteerism & Mentorship",
-    image: "/public/images/volunteer.jpg",
+    image: "/images/volunteer.jpg",
     items: [
       "Volunteered as a tech tutor at the Almapario Summer Creative Camp, mentoring young minds in coding and technology.",
       "Provided paid tutoring services, sharing knowledge in programming, web development, and digital tools with aspiring developers.",

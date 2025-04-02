@@ -10,15 +10,28 @@ import Linked from '/images/linked.png'
 import Todo from '/images/todo.png'
 import Form from '/images/stepform.png'
 import Sola from '/images/sola.png'
+import HSC from '/images/hsc.png'
+import Goal from '/images/goalapp.png'
+import Blog from '/images/infhinetblog.png'
+import Infhinet from '/images/infhinet.png'
 
 function Home() {
   const projects = [
+    {
+      name: "Infhinet",
+      description: " An e learning platform and commuinty for tech enthuusiast",
+      preview: "infhinetclass.vercel.app",
+      code: "infhinetclass.vercel.app",
+      techStack: ["react", "Nodejs", "Express", "Typscipt", "Mongodb", "Tailwind"],
+      image: Infhinet
+      
+    },
     {
       name: "Nuel's Store",
       description: "An e-commerce platform for gadgets. (sign up first to use)",
       link: "https://github.com/Royaltechsis/Nuel-Store",
       image: Store, // Placeholder for project image
-      preview: "https://nuel-store-git-main-osenibunmi2023gmailcoms-projects.vercel.app/login",
+      preview: "https://nuel-store-git-main-osenibunmi2023gmailcoms-projects.vercel.app/",
       techStack: ["React", "Redux Toolkit", "Firebase", "Tailwind CSS", "JavaScript"], // Add tech stack here
     },
     {
@@ -30,12 +43,28 @@ function Home() {
       preview: 'https://easy-banking-landing-page-kappa.vercel.app/',
     },
     {
+      name: "Infhinet Ways",
+      description: "A personal Blogging platform ",
+      link: "https://github.com/Royaltechsis/infhinet-ways",
+      image: Blog, // Placeholder for project image
+      techStack: ["React", "Tailwind CSS", "TypeScript"],
+      preview: "https://infhinetblog.vercel.app/blog",
+    },
+    {
       name: "Oluwasola Ajao and Company (Chartered Accountants)",
       description: "A website for Oluwasola Ajaa and co",
       preview: "https://oluwasolaajaoco.com/",
       image: Sola, // Placeholder for project image
       techStack: ["WordPress"],
     },
+    {
+      name: "Healthy Skincare",
+      description: " A Website with ecommerce capabilities for HSC",
+      preview: "https://healthyskincareco.com/",
+      image: HSC,
+      techStack: ["Wordpress", "Woocommerce", "Elementor", "PHP"]
+    },
+
     {
       name: "My Tube",
       description: "A YouTube Video feed made with React.",
@@ -61,12 +90,20 @@ function Home() {
       preview: "osenis-linked-in-clone.vercel.app",
     },
     {
+      name: "Goal App",
+      description: "A Web App that allows yu set and track your goals .",
+      link: "https://github.com/Royaltechsis/goalapp",
+      image: Goal, // Placeholder for project image
+      techStack: ["Typescript","Tailwind CSS", "React Js"],
+      preview: "https://goalapp-rho.vercel.app/"
+    },
+    {
       name: "To-do-list",
       description: "A to-do list website.",
       link: "https://github.com/Royaltechsis/to-do-list-project",
       image: Todo, // Placeholder for project image
       techStack: ["React", "JavaScript"],
-      preview: "to-do-list-project-lyart.vercel.app",
+      preview: "to-do-list-project-lyart.vercel.app"
     },
     {
       name: "Multi-Step Form",
@@ -76,13 +113,7 @@ function Home() {
       techStack: ["React", "Tailwind CSS", "TypeScript"],
       preview: "multi-step-form-bay-theta.vercel.app",
     },
-    {
-      name: "Stellanova",
-      description: "An innovative project for Stellanova.",
-      link: "https://github.com/Royaltechsis/stellanova",
-      image: "https://via.placeholder.com/300", // Placeholder for project image
-      techStack: ["Php","Tailwind CSS"],
-    },
+   
   ];
 
  
@@ -96,9 +127,11 @@ function Home() {
   ];
 
   const skills = [
-    { name: "HTML", level: 99 },
-    { name: "CSS", level: 95 },
+    { name: "Node", level: 75 },
+    { name: "Express", level: 75 },
+    { name: "Typescript", level: 80},
     { name: "JavaScript", level: 80 },
+    { name: "Mongo DB", level: 76 },
     { name: "React", level: 80 },
     { name: "React Native", level: 65 },
     { name: "TailwindCSS", level: 99 },
@@ -221,7 +254,7 @@ function Home() {
 
       {/* Social Links */}
       <footer className="text-center mt-10">
-        <h2 className="text-2xl font-semibold">Connect with me:</h2>
+        <h2 className="text-2xl font-semibold">Connect with me: ( Visit my github for full list of my projects) </h2>
         <div className="flex justify-center space-x-6 mt-4">
       <a
         href="https://github.com/Royaltechsis"
